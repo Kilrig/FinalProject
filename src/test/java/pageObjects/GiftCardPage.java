@@ -86,10 +86,10 @@ public class GiftCardPage extends BasePage{
 	
 	
 	public void selectingGiftCard() {
-		int randomNumbner= randomNumber();
+		int randomNumber= randomNumber();
 		int i=1;
 		for(WebElement ele:giftCardsNew) {
-			if(i==randomNumbner) {
+			if(i==randomNumber) {
 				js.executeScript("arguments[0].click();", ele);
 			}
 			i++;

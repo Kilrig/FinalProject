@@ -110,9 +110,6 @@ public class HomePage extends BasePage{
 	}
 	
 	
-	
-	
-	
 	public void cabBook() {
 		cabBtn.click();
 	}
